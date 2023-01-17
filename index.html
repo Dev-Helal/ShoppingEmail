@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="http://drive.google.com/uc?export=view&id=1zvEo169K-nX704-jNh7cXfGx7VdyB2Ua" type="image/x-icon">
+    <title>Shopping Email</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0 auto;
+            width: 650px;
+            font-family: 'Rubik', sans-serif;
+            background-color: #e2e2e2;
+            display: block;
+        }
+        h5{
+            font-size: 18px;
+            color: #232323;
+            font-weight: 500;
+            text-transform: capitalize;
+        }
+        .btn-cart{
+            text-decoration: none;
+            background: #81cf4e;
+            color: white;
+            border: 1px solid #81cf4e;
+            padding: 10px 30px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .table-order{
+            border: 1px solid #eff2f7;
+            border-collapse: collapse;
+            text-align: left;
+            width: 100%; 
+            margin-bottom: 20px; 
+            text-align: -webkit-left;
+        }
+        .table-order th{
+            font-size: 14px;
+            padding: 15px;
+            background: #eff2f7;
+            font-weight: 500;
+            text-transform: capitalize;
+        }
+        .table-order tr td h5{
+            margin: 15px 0 0;
+            font-weight: 400;
+            color: #232323;
+            font-size: 0.83em;
+        }
+        .footer{
+            background-color: #212529; 
+            color: white; 
+            padding:30px;
+            width: 100%;
+        }
+        .logo{
+            width: 100%;
+            text-align: center; 
+            padding: 10px 0px;
+        }
+        .total-order{
+            width: 100%;
+        }
+        .checkout-btn{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <table style="background-color: white;width: 100%;padding: 0 30px;box-shadow: 0px 0px 14px -4px rgba(0, 0, 0, 0.2705882353);-webkit-box-shadow: 0px 0px 14px -4px rgba(0, 0, 0, 0.2705882353);">
+        <tr>
+            <td>
+                <!-- logo -->
+                <table class="logo">
+                    <tr style="display: flex; flex-direction: column;">
+                        <td>
+                            <img style="width: 300px;" src="http://drive.google.com/uc?export=view&id=1_gaAlDuK-34IgIqlRLn8x8mL0v_ZJs91" alt="">
+                        </td>
+                        <td>
+                            <h5>Hello John,</h5>
+                            <h5>Don't Leave Me Behind</h5>
+                        </td>
+                        <td style="padding: 25px 0px;">
+                            <!-- button  -->
+                            <a href="javascript:void(0)" class="btn-cart">take me back to my cart</a>
+                        </td>
+                        <td>
+                            <h4 style="font-weight: 500; margin-top: 15px;">Your Shopping Bag</h4>
+                        </td>
+                    </tr>
+                </table>
+                
+                <table class="table-order">
+                    <tbody>
+
+                        <tr style="text-align: -webkit-left; display: grid; grid-template-columns: 1fr 2fr .5fr .5fr;">
+
+                            <th>Item</th>
+
+                            <th></th>
+
+                            <th>qty</th>
+
+                            <th>price</th>
+
+                        </tr>
+                        <!-- product-1 -->
+                        <tr style="text-align: -webkit-left; display: grid; grid-template-columns: 1fr 2fr .5fr .5fr; align-items: center; border-bottom: 1px solid #eff2f7;">
+
+                            <td style="padding: 15px;">
+                                <img src="http://drive.google.com/uc?export=view&id=1DWXnQID1eUoiHv0H-MT9z-AjZqHARAW7" alt="" width="100">
+                            </td>
+
+                            <td>
+                                <h5>Three seater Wood Style sofa for Leavingroom</h5>
+                                <h5 style="font-size: 14px;color:#444;margin-top: 8px;margin-bottom: 0px;">Size : S</h5>
+                            </td>
+
+                            <td style="text-align: center;">QTY:2</td>
+
+                            <td style="text-align: center; font-weight: bold;">$1000</td>
+
+                        </tr>
+                         <!-- product-2 -->
+                         <tr style="text-align: -webkit-left; display: grid; grid-template-columns: 1fr 2fr .5fr .5fr; align-items: center; border-bottom: 1px solid #eff2f7;">
+
+                            <td style="padding: 15px;">
+                                <img src="http://drive.google.com/uc?export=view&id=1xBZcX_zwZqBQdxSLVdHUqD_FNe97rOH0" alt="" width="100">
+                            </td>
+
+                            <td>
+                                <h5>Three seater Wood Style sofa for Leavingroom</h5>
+                                <h5 style="font-size: 14px;color:#444;margin-top: 8px;margin-bottom: 0px;">Size : M</h5>
+                            </td>
+
+                            <td style="text-align: center;">QTY:3</td>
+
+                            <td style="text-align: center; font-weight: bold;">$2500</td>
+
+                        </tr>
+                        <!-- product-2 -->
+                        <tr style="text-align: -webkit-left; display: grid; grid-template-columns: 1fr 2fr .5fr .5fr; align-items: center; border-bottom: 1px solid #eff2f7;">
+
+                            <td style="padding: 15px;">
+                                <img src="http://drive.google.com/uc?export=view&id=1MlgHAg_WaocbXey3wAV1xzil_P_KLJfR" alt="" width="100">
+                            </td>
+
+                            <td>
+                                <h5>Three seater Wood Style sofa for Leavingroom</h5>
+                                <h5 style="font-size: 14px;color:#444;margin-top: 8px;margin-bottom: 0px;">Size : 41</h5>
+                            </td>
+
+                            <td style="text-align: center;">QTY:3</td>
+
+                            <td style="text-align: center; font-weight: bold;">$6000</td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+                <table class="total-order">
+                       <!-- total -->
+                       <tr style="display: flex; justify-content: space-between; align-items: center; padding: 20px 15px; border-bottom: 1px solid #eff2f7;">
+
+                        <td>Grand Total :</td>
+
+                        <td style="font-weight: bold;">$9500</td>
+
+                    </tr>
+                </table>
+                
+                <table class="checkout-btn">
+                     <!-- checkout button  -->
+                     <tr style="display: flex; justify-content: center;">
+                        
+                        <td style="padding: 30px 0px;">
+                            <a href="javascript:void(0)" class="btn-cart" >complete checkout</a>
+                        </td>
+
+                    </tr>
+                </table>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+
+    <!-- footer  -->
+    <table class="footer" >
+
+        <tbody>
+
+            <tr>
+
+                <td>
+
+                    <table style="margin: 8px auto 20px;">
+
+                        <tr style="display: flex; align-items: center; justify-content: center; padding-top: 15px;">
+
+                            <td style="padding: 0px 10px;">
+                                <a href="#">
+                                    <img src="http://drive.google.com/uc?export=view&id=1L8OSk2WAzGs7y2aBcBLhQR8wfSvAduZQ" alt="" style="font-size: 25px; width: 22px; filter: invert(1);">
+                                </a>
+                            </td>
+
+                            <td style="padding: 0px 10px;">
+                                <a href="#">
+                                    <img src="http://drive.google.com/uc?export=view&id=1sThhYiE9eACVbgIf7a8-vcG6y1IHpIcl" alt="" style="font-size: 25px; width: 22px; filter: invert(1);">
+                                </a>
+                            </td>
+
+                            <td style="padding: 0px 10px;">
+                                <a href="#">
+                                    <img src="http://drive.google.com/uc?export=view&id=1IWdipn8DPPuhujLXgJWra1hBlw3uq4vL" alt="" style="font-size: 25px; width: 22px; filter: invert(1);">
+                                </a>
+                            </td>
+
+                            <td style="padding: 0px 10px;">
+                                <a href="#">
+                                    <img src="http://drive.google.com/uc?export=view&id=1kpSdH9BHewjZbK4bfnXZDpdfHZ_2Qd2f" alt="" style="font-size: 25px; width: 22px; filter: invert(1);">
+                                </a>
+                            </td>
+
+                        </tr>
+
+                    </table>
+
+                    <table style="width: 100%;">
+
+                        <tr style="display: flex; flex-direction: column; justify-content: center; padding-top: 20px; ">
+
+                            <td>
+                                <h5 style="color: white; padding-top: 10px; font-size: 14px; text-transform: uppercase; text-align: center;">This email was created using tha info technology.</h5>
+                            </td>
+
+                            <td>
+                                <h5 style="color: white; padding-top: 10px; font-size: 14px; text-transform: uppercase; text-align: center;">Made with by design <b style="color: #81cf4e;">info tech team.</b></h5>
+                            </td>
+
+                        </tr>
+
+                    </table>
+
+                </td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</body>
+</html>
